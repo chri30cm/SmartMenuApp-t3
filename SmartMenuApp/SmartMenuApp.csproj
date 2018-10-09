@@ -34,10 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FunctionLibrary">
-      <HintPath>..\..\..\Tryllekunst\Min-tryllekunst\SmartMenuLibrary\bin\Debug\FunctionLibrary.dll</HintPath>
+      <HintPath>..\..\Min-tryllekunst2\SmartMenuLibrary\bin\Debug\FunctionLibrary.dll</HintPath>
     </Reference>
     <Reference Include="SmartMenuLibrary">
-      <HintPath>..\..\..\Tryllekunst\Min-tryllekunst\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>
+      <HintPath>..\..\Min-tryllekunst2\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
