@@ -20,6 +20,8 @@ namespace SmartMenuApp
             SmartMenu menu = new SmartMenu();
             Console.WriteLine("For Dansk: Tryk 1");
             Console.WriteLine("For English: Press 2");
+            Console.WriteLine(" ");
+            Console.Write(": ");
             string input = Console.ReadLine();
 
             int.TryParse(input, out int r);
