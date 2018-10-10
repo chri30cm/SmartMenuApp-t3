@@ -14,7 +14,7 @@ namespace SmartMenuApp
             Program myProgram = new Program();
             myProgram.Run();
         }
-        //hejhej
+
         private void Run()
         {
             SmartMenu menu = new SmartMenu();
