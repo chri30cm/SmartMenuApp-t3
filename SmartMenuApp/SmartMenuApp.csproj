@@ -33,11 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FunctionLibrary">
-      <HintPath>..\..\Projekt 1\Min tryllekunst\SmartMenuLibrary\bin\Debug\FunctionLibrary.dll</HintPath>
+    <Reference Include="CalculatorLibrary">
+      <HintPath>..\..\CalculatorLibrary!\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll</HintPath>
     </Reference>
     <Reference Include="SmartMenuLibrary">
-      <HintPath>..\..\Projekt 1\Min tryllekunst\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>
+      <HintPath>..\..\SmartMenuLibrary!\SmartMenuLibrary\bin\Debug\SmartMenuLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bindings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
