@@ -22,17 +22,16 @@ namespace SmartMenuApp
             Console.WriteLine("For English: Press 2");
             Console.WriteLine(" ");
             Console.Write(": ");
-            string input = Console.ReadLine();
 
-            int.TryParse(input, out int r);
-            if (r != 1 && r != 2)
+            int input = int.Parse(Console.ReadLine());
+            if (input != 1 && input != 2)
             {
                 Console.WriteLine("Farvel");
                 Console.ReadLine();
             }
             else
             {
-                menu.Load(menu.ChooseLanguage(r));
+                menu.Load(menu.ChooseLanguage(input));
                 menu.Activate();
             }
         }
