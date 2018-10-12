@@ -26,7 +26,8 @@ namespace SmartMenuApp
             int input = int.Parse(Console.ReadLine());
             if (input != 1 && input != 2)
             {
-                Console.WriteLine("Farvel");
+                Console.Clear();
+                Console.WriteLine("Ups Farvel");
                 Console.ReadLine();
             }
             else
